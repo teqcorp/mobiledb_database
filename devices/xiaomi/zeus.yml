@@ -1,0 +1,66 @@
+name: 12 Pro
+manufacturer: Xiaomi
+models:
+  - 2201122C
+  - 2201122G
+released: 2021-12-28
+platform:
+  soc: Qualcomm Snapdragon 8 Gen 1 (SM8450)
+  gpu: Adreno 730
+memory:
+  variants:
+    - 128/8
+    - 256/8
+    - 256/12
+  type: UFS 3.1
+  sdcard: false
+software: Android 12, MIUI 13
+communication:
+  nfc: true
+  usb:
+    type: Type-C 2.0
+    otg: true
+  ir: true
+  radio: false
+  bluetooth:
+    version: 5.2
+    a2dp: true
+    le: true
+    aptx: [HD, Adaptive]
+fingerprint: UDFPS
+battery:
+  type: Li-Po
+  size: 4600
+  removable: false
+  charging:
+    speed:
+      - wired: 120
+      - wireless: 50
+      - reverse_wireless: 10
+    standard: QC4
+display:
+  type: LTPO AMOLED
+  refresh_rate: 120
+  HDR: 10+
+  nits: 1500
+  resolution: 1440x3200
+  density: 521
+sound:
+  stereo: true
+  speakers_count: 4
+  jack: false
+cameras:
+  main:
+    lenses:
+      - telephoto: 50MP, f/1.9, 48mm
+      - wide: 50MP, f/1.9, 24mm
+      - ultrawide: 50MP, f/2.2
+    video: 8K@24fps, 4K@30/60fps, 1080p@30/120/240/960fps, 720p@1920fps
+    eis: true
+    flash: true
+    hdr: true
+  selfie:
+    lenses:
+      - 32MP, f/2.5, 26mm, 0.7µm
+    video: 1080p@30/60fps, 720p@120fps
+    hdr: true
